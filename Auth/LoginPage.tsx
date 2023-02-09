@@ -9,7 +9,7 @@ import { auth } from '../core/firebase';
 import { get } from 'superagent';
 import { API } from 'core/constants';
 
-const LoginScreen  = ({ className = '' }) => {
+const LoginPage  = ({ className = '' }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -79,4 +79,4 @@ const LoginScreen  = ({ className = '' }) => {
   );
 };
 
-export default LoginScreen;
+export default LoginPage;
