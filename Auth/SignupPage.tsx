@@ -9,7 +9,7 @@ import { post } from 'superagent';
 import { API } from 'core/constants';
 import Textarea from 'shared/Textarea/Textarea';
 
-const SignupScreen = () => {
+const SignupPage = () => {
   const [displayName, setDisplayName] = useState('');
   const [bio, setBio] = useState('');
   const [location, setLocation] = useState('');
@@ -126,4 +126,4 @@ const SignupScreen = () => {
   );
 };
 
-export default SignupScreen;
+export default SignupPage;
