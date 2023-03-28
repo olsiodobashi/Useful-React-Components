@@ -7,7 +7,7 @@ import ButtonPrimary from 'shared/Button/ButtonPrimary';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../core/firebase';
 import { get } from 'superagent';
-import { API } from 'core/constants';
+import { API } from '../core/constants';
 
 const LoginPage  = ({ className = '' }) => {
   const [email, setEmail] = useState('');
